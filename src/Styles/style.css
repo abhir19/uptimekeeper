@@ -1,0 +1,300 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff !important;
+    overflow-x: hidden;
+    height: 100vh;
+    font-size: 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+header {
+    background: #fff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header .logo {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.dark-mode {
+    background: #303362;
+}
+
+.top-60 {
+    padding-top: 60px;
+}
+
+.m-top-30 {
+    margin-bottom: 30px;
+}
+
+input:focus {
+    box-shadow: none !important;
+}
+
+h2 {
+    font-weight: 600;
+    color: #333333;
+    font-size: 36px;
+}
+
+.nopadding {
+    padding: 0 !important;
+}
+
+/* login page design  */
+
+.left-banner {
+    position: fixed;
+    background: #D5E5FB;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100vh;    
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-banner img {
+    width: 300px;
+    margin: auto
+}
+
+.left-banner .carousel-control {
+   display: none;
+}
+
+.left-banner .carousel-indicators {
+    bottom: -70px;
+}
+
+.carousel-indicators li {
+    width: 30px;
+    height: 3px;
+    background-color: #4C5086;
+    border: 1px solid #4c5086;
+    border-radius: 0;
+}
+
+.carousel-indicators .active {
+    width: 30px;
+    height: 3px;
+    background-color: #4C5086;
+    border: 1px solid #4c5086;
+    border-radius: 0;
+}
+
+.carousel-item img {
+    width: 400px;
+}
+
+.left-banner p {
+    width: 70%;
+    margin: auto;
+}
+
+.login-area form {
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+
+.login-area form .form-group {
+    position: relative;
+}
+
+.login-area {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.login-area form input {
+    border: 0;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    box-shadow: none;
+    position: relative;
+    color: #333333;
+    padding-left: 0;
+}
+
+
+.main-button {
+    width: 100%;
+    background: #4C5086;
+    height: 56px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.main-button:hover {
+    color: #fff;
+}
+
+.sucess-button {
+    width: 100%;
+    background: rgb(95 212 142 / 20%);
+    height: 56px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #5FD48E;
+}
+.sucess-button:hover {
+    color: #5FD48E;
+}
+
+.login-area button:hover {
+    color: #fff;
+}
+
+.login-area form .form-check{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.login-area form .form-check .form-check-input {
+    position: absolute;
+    left: 0;
+    margin: 0;
+    top: 4px;
+ }
+
+.login-area form .form-check .form-check-label {
+    font-weight: 200;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #000;
+}
+
+.login-area form label {
+    color: #C4C4C4;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.forgot-password {
+    color: #FF0A0A;
+    font-size: 14px;
+}
+
+.eye {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+/* for forgot password */
+
+.login-area p{
+    color: #333333;
+    font-size: 14px;
+    margin: 10px 0 40px 0;
+}
+
+.back {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    z-index: 9;
+}
+
+p.submission-msg {
+    color: #5FD48E;
+    font-size: 16px;
+    text-align: center;
+    margin: 30px 0
+}
+
+/* set a new password */
+
+.set-new-paswrd {
+    background: #d5e5fb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.center-box {
+    width: 38%;
+    background: #fff; 
+    padding: 30px;  
+    border-radius: 8px; 
+}
+
+.center-box p {
+    color: #333333;
+}
+
+.center-box ul {
+    font-size: 12px;
+    color: #000;
+}
+
+.set-new-paswrd form input {
+    border: 0;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    padding-left: 0;
+}
+
+.set-new-paswrd form label {
+    font-size: 14px;
+    color: #333333;
+    margin: 0;
+}
+
+.pswrd-heading {
+    font-size: 14px;
+}
+
+.sucessfull {
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .carousel-indicators {
+        bottom: -60px;
+    }
+
+    .login-area form {
+        width: 90%;
+    }
+
+    .left-banner {
+        display: none;
+    }
+}
